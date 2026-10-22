@@ -9,7 +9,7 @@
 ## Contents
 Scripts used to obtain net forces for the AIMNet2, ANI-1x, ANI-1xbb, QCM, SPICE, and Transition1x datasets are given in the `net_forces/` directory.
 
-In the `force_discrepancies/` directory, we also provide forces (provided in .xyz files) recomputed with different ORCA for the 1000 configuration random samples of the ANI-1x, Transition1x, AIMNet2, and SPICE datasets. Original reported forces are labelled with the "REF_forces" keyword, recomputed forces with "orca_forces".
+In the `recomputed_forces/` directory, we also provide forces (provided in .xyz files) recomputed with different ORCA settings for the 1000 configuration random samples of the ANI-1x, Transition1x, AIMNet2, and SPICE datasets. Original reported forces are stored in `original_calculation.xyz`.
 
 
 ## Citation
